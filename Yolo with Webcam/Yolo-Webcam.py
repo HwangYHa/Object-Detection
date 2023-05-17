@@ -12,6 +12,7 @@ cap = cv2.VideoCapture("../Videos/motorbikes.mp4")  # For Video
 
 model = YOLO("../Yolo-Weights/yolov8n.pt")
 
+# 한글 업데이트 및 사람을 남녀노소로 구분해보기
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
               "dog", "horse", "sheep", "cow", "elephant", "bear", "zebra", "giraffe", "backpack", "umbrella",
